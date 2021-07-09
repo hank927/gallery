@@ -38,8 +38,8 @@ class Galleria extends StatelessWidget {
                           aspectRatio: 16 / 9,
                           child: Hero(
                               tag: 'cover',
-                              child: Image.network(gallery["cover"],
-                                   // EnvironmentConfig.IS_RUN_ALONE?'assets/image/diff_ev_day_16084739630360016qxep4hnv3o9mjwc.jpg':'packages/gallery/assets/image/diff_ev_day_16084739630360016qxep4hnv3o9mjwc.jpg',
+                              child: Image.asset(//gallery["cover"],
+                                   EnvironmentConfig.IS_RUN_ALONE?'assets/image/diff_ev_day_16084739630360016qxep4hnv3o9mjwc.jpg':'packages/gallery/assets/image/diff_ev_day_16084739630360016qxep4hnv3o9mjwc.jpg',
                                   // 'assets/image/diff.jpg',
                                   fit: BoxFit.cover))),
                       Container(
